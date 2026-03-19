@@ -7,6 +7,7 @@ export fn _start() callconv(.naked) noreturn {
         \\ mov r1, #40
         \\ mov r4, #66
         \\ add r0, r1, r4
+        \\ sub r4, r0, r4
     );
     while (true) {}
 }
